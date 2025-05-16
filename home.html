@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Pengolahan Sarana Dan Prasarana</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="soal.css">
+  </head>
+<body>  
+  <div class="character">
+    <img src="orang.png" alt="Karakter" class="character" />
+  </div>
+  <div class="papan-container">
+    <img src="papan.png" alt="Papan Pengumuman" class="papan" />
+      <div class="papan-text">
+        <h2>Halo <br>Selamat Datang!</h2>
+        <div class="paragraf">
+          <p><span id="tampilNama"></span></p>
+      </div>
+       </div>
+  </div>
+  <div class="container">
+    <img src="logo.png" alt="Logo" class="logo" />
+    <h1 class="judul">Pengolahan Sarana <br><span>Dan Prasarana</span></h1>
+    <h2 class="sub-title" style="color: #003d46;">S1 Pendidikan Administrasi Perkantoran</h2> 
+     <div class="grid-menu">
+        <div class="menu" style="background-color: #003d5a;" onclick="openPendahuluan()">Pendahuluan</div>
+          <div class="menu" style="background-color: #006163;" onclick="openPenggunaanModul()">Tutorial Penggunaan Web</div>
+            <div class="menu" style="background-color: #024a02;" onclick="openDeskripsiModul()">Materi 
+              Bab 1</div>
+              <div class="menu" style="background-color: #884f00;" onclick="openMateri()">Materi 
+                Bab 2</div>
+                <div class="menu" style="background-color: #b7c400;" onclick="openRangkuman()">Rangkuman Materi</div>
+              <div class="menu" style="background-color: #b00740;" onclick="openLatihan()">Latihan Soal</div>
+          <div class="menu" style="background-color: #950101;" onclick="openProfil()">Profil Pengembang</div>
+        <div class="menu" style="background-color: #00c206;" onclick="openRujukan()">Daftar Pustaka</div>
+      </div>
+        <!-- Icon Exit dalam container -->
+<div class="icon-container">
+  <img src="volume.png" alt="Toggle Music" id="musicToggle" class="icon" />
+  <img src="silang.png" alt="Exit" id="exitBtn" class="icon" />
+
+<!-- Elemen Audio untuk Suara Exit -->
+<audio id="exitSound" src="mp3.mp3"></audio> <!-- Ganti dengan file suara yang diinginkan -->
+  </div>
+
+  <div id="pendahuluanModal" class="modal">
+    <div class="modal-content">
+      <button class="btn-top" id="closePendahuluanBtn">
+        <div class="back-icon"></div>
+      </button>
+      <div class="header">
+        <h1>Pendahuluan</h1>
+      </div>
+      <div class="content-box">
+        <h2>KOMPETENSI BELAJAR</h2>
+        <div class="kompetensi">
+          <strong>pendahuluan</strong>
+         <iframe 
+    src="pendahuluan.pdf" 
+    width="100%" 
+    height="400px" 
+    style="border: 1px solid #ccc;">
+  </iframe>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Penggunaan Modul -->
+<div id="penggunaanModul" class="modal">
+  <div class="modal-content">
+    <button class="btn-top" id="closePenggunaanBtn">
+      <div class="back-icon"></div>
+    </button>
+    <div class="header">
+      <h1>Tutorial Penggunaan Web</h1>
+    </div>
+ <div class="content-box">
+  <h2>Tutorial Penggunaan Web</h2>
+  <iframe 
+    src="tutor.pdf" 
+    width="100%" 
+    height="400px" 
+    style="border: 1px solid #ccc;">
+  </iframe>
+</div>
+
+  </div>
+</div>
+
+<!-- Modal Deskripsi Modul -->
+<div id="deskripsiModal" class="modal">
+  <div class="modal-content">
+    <button class="btn-top" id="closeDeskripsiBtn">
+      <div class="back-icon"></div>
+    </button>
+    <div class="header">
+      <h1>Materi Bab 1</h1>
+    </div>
+    <div class="content-box">
+      <h2>Materi</h2>
+      <div class="kompetensi">
+      <iframe 
+    src="BAB 1.pdf" 
+    width="100%" 
+    height="400px" 
+    style="border: 1px solid #ccc;">
+  </iframe>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Materi -->
+<div id="materiModal" class="modal">
+  <div class="modal-content">
+    <button class="btn-top" id="closeMateriBtn">
+      <div class="back-icon"></div>
+    </button>
+    <div class="header">
+      <h1>Materi Bab 2</h1>
+    </div>
+    <div class="content-box">
+      <h2>Materi</h2>
+      <div class="kompetensi">
+      <iframe 
+    src="BAB 2.pdf" 
+    width="100%" 
+    height="400px" 
+    style="border: 1px solid #ccc;">
+  </iframe>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Rangkuman Materi -->
+<div id="rangkumanModal" class="modal">
+  <div class="modal-content">
+    <button class="btn-top" id="closeRangkumanBtn">
+      <div class="back-icon"></div>
+    </button>
+    <div class="header">
+      <h1>Rangkuman Materi</h1>
+    </div>
+    <div class="content-box">
+      <h2>Rangkuman Materi</h2>
+      <div class="kompetensi">
+      <iframe 
+    src="summary.pdf" 
+    width="100%" 
+    height="400px" 
+    style="border: 1px solid #ccc;">
+  </iframe>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Modal Profil Pengembang -->
+<div id="profilModal" class="modal">
+  <div class="modal-content">
+    <button class="btn-top" id="closeProfilBtn">
+      <div class="back-icon"></div>
+    </button>
+    <div class="header">
+      <h1>Profil Pengembang</h1>
+    </div>
+    <div class="content-box">
+      <h2>Profil Pengembang</h2>
+      <div class="kompetensi">
+     <iframe 
+    src="DAFPUS.pdf" 
+    width="100%" 
+    height="400px" 
+    style="border: 1px solid #ccc;">
+  </iframe>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div id="rujukanModal" class="modal">
+  <div class="modal-content">
+    <button class="btn-top" id="closeRujukanBtn">
+      <div class="back-icon"></div>
+    </button>
+    <div class="header">
+      <h1>Daftar Pustaka</h1>
+    </div>
+    <div class="content-box">
+      <h2>Daftar Pustaka</h2>
+      <div class="kompetensi">
+      <iframe 
+    src="DAFPUS.pdf" 
+    width="100%" 
+    height="400px" 
+    style="border: 1px solid #ccc;">
+  </iframe>
+   </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Latihan Soal -->
+<div id="latihanModal" class="modal">
+  <div class="modal-content">
+    <button class="btn-top" id="closeLatihanBtn">
+      <div class="back-icon"></div>
+    </button>
+    <div class="quiz-container">
+      <h2> <img src="quiz.png" width="40px">  SOAL LATIHAN</h2>
+      <div id="start-box">
+        <p>Masukkan nama kamu ya~</p>
+        <input 
+          type="text" 
+          id="player-name" 
+          placeholder="nama kamu" 
+          onkeydown="checkEnter(event)" 
+        />
+        <div id="error-message" class="error-message">Nama harus diisi ya 😄✨</div>
+        <button onclick="startQuiz()">Mulai Quiz 🎉</button>
+        <!-- Ikon Speaker untuk kontrol audio -->
+    
+      </div>
+  
+      <div id="quiz-box" class="hidden">
+        <p id="question">Pertanyaan akan tampil di sini</p>
+        <div id="options"></div>
+        <button id="next-btn" onclick="nextQuestion()">Pertanyaan Selanjutnya →</button>
+      </div>
+  
+      <div id="result-box" class="hidden">
+        <h2>🎊 Hasil Quiz 🎊</h2>
+        <p>Nama: <strong id="display-name"></strong></p>
+        <p>Skor: <strong id="score"></strong></p>
+        <button onclick="restartQuiz()">Main Lagi 😁</button>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Tambahkan Audio -->
+    <audio id="click-sound" src="keluar.mp3" preload="auto"></audio>
+    <audio id="button-sound" src="mp3.mp3" preload="auto"></audio>
+    <audio id="correct-sound" src="mp3.mp3" preload="auto"></audio>
+    <audio id="wrong-sound" src="mp3.mp3" preload="auto"></audio>
+    <audio id="sound" src="start.mp3" preload="auto"></audio>
+                                                
+                            
+    <audio id="backsound" loop muted autoplay>
+          <source src="backsound.mp3" type="audio/mp3">
+    </audio>
+                                                        <!-- modal -->
+    <audio id="clickSound">
+          <source src="start.mp3" type="audio/mp3">
+    </audio>
+    <audio id="backButtonSound">
+          <source src="mp3.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="soal.js"> </script>
+    <script src="home.js"> </script>
+
+   </body>
+</html>
