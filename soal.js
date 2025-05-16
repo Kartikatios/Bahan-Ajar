@@ -80,7 +80,7 @@ const questions = [
         answer: "Pemeliharaan mendadak"
       },
       {
-        question: "10.	Jika pemeliharaan dilakukan secara asal asalan dan tidak berkala, maka resiko yang paling mungkin terjadi adalah",
+        question: "Jika pemeliharaan dilakukan secara asal asalan dan tidak berkala, maka resiko yang paling mungkin terjadi adalah",
         options: [
           "Kinerja karyawan meningkat karena tidak repot merawat barang",
           "Barang cepat rusak dan biaya perbaikan menbengkak",
