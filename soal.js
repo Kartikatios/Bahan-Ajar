@@ -1,93 +1,103 @@
 const questions = [
     {
-      question: "Apa pengertian administrasi sarana dan prasarana?",
+      question: "Apa yang dimaksud dengan sarana menurut Kamus Besar Bahasa Indonesia (KBBI)?",
       options: [
-        "Pengelolaan data pengaturan terhadap semua fasilitas pendukung kegiatan admintrasi",
-        "Proses mendata keuangan kantor",
-        "System pengarsipan dokumen penting",
-        "Pengawasan terhadap pegawai"
+        "Tempat utama berlangsungnya aktivitas administrasi",
+        "Penunjang utama dalam suatu kegiatan",
+        "Sesuatu yang dipakai sebagai alat untuk mencapai tujuan",
+        "Benda yang tidak bergerak seperti gedung atau ruang rapat"
       ],
-      answer: "Pengelolaan data pengaturan terhadap semua fasilitas pendukung kegiatan admintrasi"
+      answer: "Sesuatu yang dipakai sebagai alat untuk mencapai tujuan"
     },
     {
-      question: "Berikut ini yang termasuk tujuan administrasi sarana dan prasarana",
+      question: "Jika sebuah kantor sering kehilangan banyak barang meskipun telah melakukan penyimpanan, Langkah terbaik yang perlu ditambahkan dalam system pengelolaan sarana dan prasarana adalah?",
       options: [
-        "Mempermudah karyawan",
-        "Menurunkan produktivitas",
-        "Meningkatkan kinerja seseorang",
-        "Menyederhanakan struktur organisasi"
+        "Menutup akses Gudang bagi semua pegawai",
+        "Meningkatkan system inventarisasi dan pengawasan",
+        "Memperbanyak stok barang",
+        "Membuat laporan tiga bulanan"
       ],
-      answer: "Meningkatkan kinerja seseorang"
+      answer: "Meningkatkan system inventarisasi dan pengawasan"
     },
     {
-      question: "Factor yang perlu diperhatikan dalam penelitian kebutuhan perlengkapan kerja, kecuali…",
+      question: "Furniture kantor memiliki pengertian yang berbeda-beda menurut para ahli. Pendapat dari Santoso (1998) mengenai furniture kantor yaitu…",
       options: [
-        "Kompetensi",
-        "Ongkos",
-        "Fungsional",
-        "Prestise"
+        "Sebagai sarana pembantu pekerjaan dengan lancar",
+        "Suatu peralatan yang terseedia di kantor",
+        "Peralatan yang estetik",
+        "Alat komunikasi antar karyawan "
       ],
-      answer: "Kompetensi"
+      answer: "Sebagai sarana pembantu pekerjaan dengan lancar"
     },
     {
-      question: "Berikut ini tujuan dari pemeliharaan sarana dan prasarana kantor adalah, kecuali…",
+      question: "Karyawan perusahaan melaporkan kepada manajer mengenai rasa pegal dan tidak focus pada saat bekerja. Tindakan apa yang harus dilakukan manajer apabila mendapat laporan tersebut?",
       options: [
-        "Mecegah kerusakan karena suhu",
-        "Mencegah barang yang rusak karena hama",
-        "Menjaga kebersihan sarana",
-        "Menambah jumlah barang"
+        "Memotong jam kerja agar tidak terlalu lama",
+        "Mengganti furniture yang memiliki nilai ergonomis",
+        "Melakukan sosialisasi mengenai tata cara duduk yang benar",
+        "Menambah tempat tidur karyawan agar bisa istirahat"
       ],
-      answer: "Menambah jumlah barang"
+      answer: "Mengganti furniture yang memiliki nilai ergonomis"
     },
     {
-      question: "Tujuan menyimpan barang dengan rapi dan berkode adalah",
+      question: "Anda seorang pemilik kantor dengan desain interior industrial dimana dinding kantor dibangun tanpa finishing. Apakah tujuan anda mengambil desain tersebut?",
       options: [
-        "Agar barang terlihat mahal",
-        "Untuk meningkatkan biaya penyimpangan",
-        "Agar mudah di temukan saat dibutuhkan",
-        "Untuk meningkatkan biaya penyimpangan"
+        "Ingin terlihat memiliki kesan klasik",
+        "Lebih menghemat biaya pembangunan",
+        "Menutupi kekurangan struktur bangunan",
+        "Terlihat kantor yang kreatif dan dinamis"
       ],
-      answer: "Agar mudah di temukan saat dibutuhkan"
+      answer: "Terlihat kantor yang kreatif dan dinamis"
     },
     {
-        question: "Jika sebuah kantor sering kehilangan banyak barang meskipun telah melakukan penyimpanan, Langkah terbaik yang perlu ditambahkan dalam system pengelolaan sarana dan prasarana adalah?",
+        question: "Apa alasan dari pencahayaan alami lebih efektif daripada pencahayaan lainnya?",
         options: [
-          "Menutup akses Gudang bagi semua pegawai",
-          "Meningkatkan system inventarisasi dan pengawasan",
-          "Memperbanyak stok barang ",
-          "Membuat laporan tiga bulanan"
+          "Karena pencahayaan alami menimbulkan kenaikan tagihan listrik",
+          "Karena pencahayaan alami dapat meminimalisir kesan modern",
+          "Karena pencahayaan alami bisa meningkatkan kreativitas karyawan",
+          "Karena pencahayaan alami lebih cocok dengan desain interior klasik "
         ],
-        answer: "Meningkatkan system inventarisasi dan pengawasan"
+        answer: "Karena pencahayaan alami bisa meningkatkan kreativitas karyawan"
       },
       {
-        question: "Sebuah kantor ingin Menyusun laporan sarana dan prasarana tahunan, tetapi kehilangan beberapa bukti transaksi. Akibat yang mungkin terjadi adalah?",
+        question: "Suatu perusahaan mengeluh bahwa banyak waktu terbuang karena pegawai harus berjalan jauh untuk mengakses alat kerja utama seperti printer dan mesin fotokopi. Prinsip tata ruang kantor manakah yang paling tepat diterapkan untuk mengatasi masalah ini?",
         options: [
-          "Laporan tidak akurat dan sulit di pertanggungjawabkan",
-          "Laporan tetap sah asal ditandatangani pemimpin",
-          "Laporan tetap valid karena menggunakan data sebelumnya",
-          "Laporan tidak bisa dibuat sama sekali"
+          "Asas Rangkaian Kerja",
+          "Asas Pemanfaatan Seluruh Ruang",
+          "Asas Jarak Pendek",
+          "Penempatan unit kerja yang saling berjauhan"
         ],
-        answer: "Laporan tidak akurat dan sulit di pertanggungjawabkan"
+        answer: "Asas Jarak Pendek"
       },
       {
-        question: "Pemeliharaan yang dilakukan dalam waktu tertentu, seperti seminggu atau sebulan sekali disebut?",
+        question: "Peran interior kantor yang manakah bisa sesuai dengan tujuan mendukung branding perusahaan?",
         options: [
-          "Pemeliharaan darurat ",
-          "Pemeliharaan berkala",
-          "Pemeliharaan harian",
-          "Pemeliharaan mendadak"
+          "Memajang logo perusahaan yang besar di setiap ruangan",
+          "Memilih warna dinding yang sesuai dengan perusahaan",
+          "Memberikan hidangan special pada ruang istirahat",
+          "Mengatur ulang jam kerja berdasarkan budaya perusahaan"
         ],
-        answer: "Pemeliharaan mendadak"
+        answer: "Memilih warna dinding yang sesuai dengan perusahaan"
       },
       {
-        question: "Jika pemeliharaan dilakukan secara asal asalan dan tidak berkala, maka resiko yang paling mungkin terjadi adalah",
+        question: "Apa arti dari istilah layout dalam konteks perkantoran?",
         options: [
-          "Kinerja karyawan meningkat karena tidak repot merawat barang",
-          "Barang cepat rusak dan biaya perbaikan menbengkak",
-          "Barang selalu dalam kondisi baru",
-          "Anggaran kantor menjadi berlebihan"
+          "Penyusunan jadwal kerja pegawai",
+          "Pengaturan perabot dan perlengkapan kantor secara sistematis",
+          "Pembagian gaji dan tunjangan pegawai",
+          "Penyimpanan data dalam computer"
         ],
-        answer: "Barang cepat rusak dan biaya perbaikan menbengkak"
+        answer: "Pengaturan perabot dan perlengkapan kantor secara sistematis"
+      },
+       {
+        question: "Siapa yang menyatakan bahwa tata ruang kantor merupakan pengaturan alat-alat kerja secara tepat untuk menciptakan sistem kerja yang nyaman bagi karyawan?",
+        options: [
+          "George R. Terry",
+          "Littlefield dan Peterson",
+          "The Liang Gie",
+          "Marsofiyati"
+        ],
+        answer: "The Liang Gie"
       },
   ];
 
