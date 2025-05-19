@@ -63,6 +63,7 @@ body {
     font-size: 1.2rem;
     margin: 20px;
     color: #ffffff;
+    font: optional, italic;
   }
   .logo {
     width: 70px;
