@@ -60,10 +60,10 @@ body {
   }
 
   .paragraf p {
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin: 20px;
     color: #ffffff;
-    font: optional, italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .logo {
     width: 70px;
@@ -90,19 +90,25 @@ body {
     box-shadow: 3px 14px 10px #00a57e(0,0,0,0.1);
   }
 
-  .judul {
+ .judul {
     font-size: 3rem;
     animation: pulse 2s infinite;
     color: #656565;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
 
   .judul span {
     color: #00ada5;
   }
 
+   .sub-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20%;
+  }
+
   /* Grid Menu */
-.grid-menu {
+  .grid-menu {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 25px;
@@ -120,6 +126,7 @@ body {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     cursor: pointer;
     transition: transform 0.2s ease, background-color 0.3s ease;
+    
   }
 
   .menu:hover {
@@ -137,8 +144,8 @@ body {
   .icon-container {
     position: relative;
     position: absolute;
-          top: 20px;
-          right: 20px;
+          top: 40px;
+          right: 40px;
   }
 
   .exit-button {
@@ -197,21 +204,21 @@ body {
 
   .header h1 {
     font-size: 2.5rem;
-    color: #166b84;
+    color: #16847d;
   }
 
   .content-box {
     background-color: rgba(76, 201, 240, 0.1);
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .content-box {
-    background: #38a0d4;
-    padding: 20px;
+    background: #38c7d4;
+    padding: 10px;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .sub-title {
     font-size: 18px;
