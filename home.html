@@ -17,7 +17,6 @@
         <h2>Halo <br>Selamat Datang!</h2>
         <div class="paragraf">
           <p><span id="tampilNama"></span></p>
-       <span> </span>
         <h2>Selamat Belajar</h2>
       </div>
        </div>
@@ -28,12 +27,12 @@
     <h2 class="sub-title" style="color: #003d46;">S1 Pendidikan Administrasi Perkantoran</h2> 
      <div class="grid-menu">
         <div class="menu" style="background-color: #003d5a;" onclick="openPendahuluan()">Pendahuluan</div>
-          <div class="menu" style="background-color: #006163;" onclick="openPenggunaanModul()">Tutorial Penggunaan Web</div>
+          <div class="menu" style="background-color: #006163;" onclick="openPenggunaanModul()">Tutorial Penggunaan web </div>
             <div class="menu" style="background-color: #024a02;" onclick="openDeskripsiModul()">Materi Bab 1</div>
               <div class="menu" style="background-color: #884f00;" onclick="openMateri()">Materi Bab 2</div>
-                <div class="menu" style="background-color: #b7c400;" onclick="openRangkuman()">Rangkuman Materi</div>
-              <div class="menu" style="background-color: #b00740;" onclick="openLatihan()">Latihan Soal</div>
-          <div class="menu" style="background-color: #950101;" onclick="openProfil()">Profil Pengembang Web</div>
+              <div class="menu" style="background-color: #b7c400;" onclick="openRangkuman()">Latihan soal Bab<br>1</div>
+                <div class="menu" style="background-color: #b00740;" onclick="openLatihan()">Latihan Soal Bab 2</div>
+          <div class="menu" style="background-color: #950101;" onclick="openProfil()">Profil Pengembang web</div>
         <div class="menu" style="background-color: #00c206;" onclick="openRujukan()">Daftar Pustaka</div>
       </div>
         <!-- Icon Exit dalam container -->
@@ -54,11 +53,11 @@
         <h1>Pendahuluan</h1>
       </div>
       <div class="content-box">
-        <h3>KOMPETENSI BELAJAR</h3>
+        <h2>KOMPETENSI BELAJAR</h2>
         <div class="kompetensi">
           <strong>pendahuluan</strong>
          <iframe 
-    src="pendahuluan.pdf" 
+    src="pendahuluan.docx" 
     width="100%" 
     height="400px" 
     style="border: 1px solid #ccc;">
@@ -76,10 +75,10 @@
       <div class="back-icon"></div>
     </button>
     <div class="header">
-      <h1>Tutorial Penggunaan Web</h1>
+      <h1>Tutorial Penggunaan</h1>
     </div>
  <div class="content-box">
-  <h3>Tutorial Penggunaan Web</h3>
+  <h2>Tutorial Penggunaan</h2>
   <div class="kompetensi">
   <iframe 
     src="tutor.pdf" 
@@ -103,7 +102,7 @@
       <h1>Materi Bab 1</h1>
     </div>
     <div class="content-box">
-      <h3>Materi</h3>
+      <h2>Materi</h2>
       <div class="kompetensi">
       <iframe 
     src="BAB 1.pdf" 
@@ -126,7 +125,7 @@
       <h1>Materi Bab 2</h1>
     </div>
     <div class="content-box">
-      <h3>Materi</h3>
+      <h2>Materi</h2>
       <div class="kompetensi">
       <iframe 
     src="BAB 2.pdf" 
@@ -139,29 +138,6 @@
   </div>
 </div>
 
-<!-- Modal Rangkuman Materi -->
-<div id="rangkumanModal" class="modal">
-  <div class="modal-content">
-    <button class="btn-top" id="closeRangkumanBtn">
-      <div class="back-icon"></div>
-    </button>
-    <div class="header">
-      <h1>Rangkuman Materi</h1>
-    </div>
-    <div class="content-box">
-      <h3>Rangkuman Materi</h3>
-      <div class="kompetensi">
-      <iframe 
-    src="summary.pdf" 
-    width="100%" 
-    height="400px" 
-    style="border: 1px solid #ccc;">
-  </iframe>
-    </div>
-  </div>
-</div>
-</div>
-
 <!-- Modal Profil Pengembang -->
 <div id="profilModal" class="modal">
   <div class="modal-content">
@@ -172,7 +148,7 @@
       <h1>Profil Pengembang</h1>
     </div>
     <div class="content-box">
-      <h3>Profil Pengembang</h3>
+      <h2>Profil Pengembang</h2>
       <div class="kompetensi">
      <iframe 
     src="pp.pdf" 
@@ -194,7 +170,7 @@
       <h1>Daftar Pustaka</h1>
     </div>
     <div class="content-box">
-      <h3>Daftar Pustaka</h3>
+      <h2>Daftar Pustaka</h2>
       <div class="kompetensi">
       <iframe 
     src="dafpus.pdf" 
@@ -207,44 +183,81 @@
   </div>
 </div>
 
-<!-- Modal Latihan Soal -->
+<!-- soal 1 -->
+<div id="rangkumanModal" class="modal">
+  <div class="modal-content">
+    <button class="btn-top" id="closeRangkumanBtn">
+      <div class="back-icon"></div>
+    </button>
+    <div class="quiz-container" id="section1">
+      <h2> <img src="quiz.png" width="40px">  SOAL LATIHAN 1</h2>
+      <div id="start-bok">
+        <p>Masukkan nama kamu ya~</p>
+        <input 
+          type="text" 
+          id="player-nama" 
+          placeholder="nama kamu" 
+          onkeydown="chekEnter1(event)" 
+        />
+        <div id="error-message1" class="error-message">Nama harus diisi ya 😄✨</div>
+        <button onclick="startQuiz1()">Mulai Quiz 🎉</button>
+        
+      </div>
+  
+      <div id="quiz-bok" class="hidden">
+        <p id="questione">Pertanyaan akan tampil di sini</p>
+        <div id="optionse"></div>
+        <button id="next-buton" onclick="nextQuestion1()">Pertanyaan Selanjutnya →</button>
+      </div>
+  
+      <div id="result-bok" class="hidden">
+        <h2>🎊 Hasil Quiz 1 🎊</h2>
+        <p>Nama: <strong id="display-nama"></strong></p>
+        <p>Skor: <strong id="scoree"></strong></p>
+        <button onclick="restartQuiz1()">Main Lagi 😁</button>
+      </div>
+
+    </div>
+    </div>
+  </div>
+
+<!--  Soal 2 -->
 <div id="latihanModal" class="modal">
   <div class="modal-content">
     <button class="btn-top" id="closeLatihanBtn">
       <div class="back-icon"></div>
     </button>
-    <div class="quiz-container">
-      <h3> <img src="quiz.png" width="40px">  SOAL LATIHAN</h3>
+    <div class="quiz-container" id="section2">
+      <h2> <img src="quiz.png" width="40px">  SOAL LATIHAN 2</h2>
       <div id="start-box">
         <p>Masukkan nama kamu ya~</p>
         <input 
           type="text" 
           id="player-name" 
           placeholder="nama kamu" 
-          onkeydown="checkEnter(event)" 
+          onkeydown="checkEnter2(event)" 
         />
-        <div id="error-message" class="error-message">Nama harus diisi ya 😄✨</div>
-        <button onclick="startQuiz()">Mulai Quiz 🎉</button>
-        <!-- Ikon Speaker untuk kontrol audio -->
+        <div id="error-message2" class="error-message">Nama harus diisi ya 😄✨</div>
+        <button onclick="startQuiz2()">Mulai Quiz 🎉</button>
     
       </div>
   
       <div id="quiz-box" class="hidden">
         <p id="question">Pertanyaan akan tampil di sini</p>
         <div id="options"></div>
-        <button id="next-btn" onclick="nextQuestion()">Pertanyaan Selanjutnya →</button>
+        <button id="next-btn" onclick="nextQuestion2()">Pertanyaan Selanjutnya →</button>
       </div>
   
       <div id="result-box" class="hidden">
         <h2>🎊 Hasil Quiz 🎊</h2>
         <p>Nama: <strong id="display-name"></strong></p>
         <p>Skor: <strong id="score"></strong></p>
-        <button onclick="restartQuiz()">Main Lagi 😁</button>
+        <button onclick="restartQuiz2()">Main Lagi 😁</button>
       </div>
     </div>
     </div>
-  </div>
-</div>
+    </div>
+    </div>
 
     <!-- Tambahkan Audio -->
     <audio id="click-sound" src="keluar.mp3" preload="auto"></audio>
@@ -265,8 +278,7 @@
           <source src="mp3.mp3" type="audio/mp3">
     </audio>
 
-    <script src="soal.js"> </script>
-    <script src="home.js"> </script>
-
-   </body>
+    <script src="soal.js"></script>
+    <script src="home.js"></script>
+  </body>
 </html>
