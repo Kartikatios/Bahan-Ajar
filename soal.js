@@ -44,7 +44,7 @@ const questions = [
         options: [
           "A.	Mecegah kerusakan karena suhu",
           "B.	Mencegah barang yang rusak karena hama",
-          "B.	Mencegah barang yang rusak karena hama",
+          "C.	Menjaga kebersihan sarana",
           "D.	Menambah jumlah barang"
         ],
         answer: "D.	Menambah jumlah barang"
