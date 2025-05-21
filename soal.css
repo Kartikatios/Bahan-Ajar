@@ -54,7 +54,7 @@
   #next-btn {
     margin-top: 20px;
     display: none;
-    background-color: #6a4c93;
+    background-color: #4d2783;
   }
 
   #next-btn:hover {
@@ -64,7 +64,7 @@
   input {
     padding: 10px;
     border-radius: 8px;
-    border: 2px dashed #f9844a;
+    border: 2px dashed #f66b25;
     width: 80%;
     max-width: 300px;
     margin-bottom: 10px;
