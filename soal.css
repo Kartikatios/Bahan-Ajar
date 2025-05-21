@@ -32,7 +32,7 @@
     padding: 15px 15px;
     border: none;
     border-radius: 12px;
-    background-color: #fca17d;
+    background-color: #ce6f4a;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -54,17 +54,21 @@
   #next-btn {
     margin-top: 20px;
     display: none;
-    background-color: #4d2783;
+    background-color: #523280;
   }
-
+#next-buton {
+    margin-top: 20px;
+    display: none;
+    background-color: #523280;
+  }
   #next-btn:hover {
-    background-color: #5a3c7d;
+    background-color: #5a3583;
   }
 
   input {
     padding: 10px;
     border-radius: 8px;
-    border: 2px dashed #f66b25;
+    border: 2px dashed #ea804b;
     width: 80%;
     max-width: 300px;
     margin-bottom: 10px;
@@ -79,7 +83,7 @@
   }
 
   .error-message {
-    color: #ff5f6d;
+    color: #ce2d3b;
     font-size: 14px;
     margin-top: 5px;
     font-weight: bold;
