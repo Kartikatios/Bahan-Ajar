@@ -25,7 +25,7 @@ const questions = [
         "A. Sarana bersifat tidak bergerak, sedangkan prasarana bersifat bergerak",
         "B. Sarana digunakan untuk alat mencapai tujuan, sedangkan prasarana sebagai penunjang utama proses",
         "C. Sarana digunakan oleh manajer, sedangkan prasarana digunakan oleh staf",
-        "B. Sarana digunakan untuk alat mencapai tujuan, sedangkan prasarana sebagai penunjang utama proses"
+        "D.. Sarana digunakan untuk alat mencapai tujuan, sedangkan prasarana sebagai penunjang utama proses"
       ],
       answer: "B. Sarana digunakan untuk alat mencapai tujuan, sedangkan prasarana sebagai penunjang utama proses"
     },
