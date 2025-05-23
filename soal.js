@@ -25,7 +25,7 @@ const questions = [
         "A. Sarana bersifat tidak bergerak, sedangkan prasarana bersifat bergerak",
         "B. Sarana digunakan untuk alat mencapai tujuan, sedangkan prasarana sebagai penunjang utama proses",
         "C. Sarana digunakan oleh manajer, sedangkan prasarana digunakan oleh staf",
-        "D.. Sarana digunakan untuk alat mencapai tujuan, sedangkan prasarana sebagai penunjang utama proses"
+        "D. Sarana lebih penting daripada prasarana dalam organisasi"
       ],
       answer: "B. Sarana digunakan untuk alat mencapai tujuan, sedangkan prasarana sebagai penunjang utama proses"
     },
@@ -164,14 +164,14 @@ const questions = [
         answer: "A.	Meningkatkan produktivitas karyawan"
       },
       {
-        question: "7.	Apabila anda mendapatkan klien untuk melakukan tata ulang kantor agar terlihat lebih asri tetapi dengan syarat tidak boleh merubah bangunan karena anda seorang desainer interior. Hal apakah yang aka anda ambil untuk klien tersebut?",
+        question: "7.	Apabila anda mendapatkan klien untuk melakukan tata ulang kantor agar terlihat lebih asri tetapi dengan syarat tidak boleh merubah bangunan karena anda seorang desainer interior. Hal apakah yang akan anda ambil untuk klien tersebut?",
         options: [
           "A.	Menambahkan kaca yang lebar pada dinding kantor",
           "B.	Mengganti lampu dengan lampu warna hijau",
-          "C.	Memberikan tanaman pada settiap ruangan yang strategis",
+          "C.	Memberikan tanaman pada setiap ruangan yang strategis",
           "D.	Menempelkan wallpaper dinging dengan tema tanaman"
         ],
-        answer: "C.	Memberikan tanaman pada settiap ruangan yang strategis"
+        answer: "C.	Memberikan tanaman pada setiap ruangan yang strategis"
       },
       {
         question: "8.	Peran interior kantor yang manakah bisa sesuai dengan tujuan mendukung branding perusahaan?",
